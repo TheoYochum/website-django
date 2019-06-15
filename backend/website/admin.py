@@ -5,4 +5,4 @@ from .models import Post
 class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'description', 'published')
 
-admin.site.Register(Post, PostAdmin)
+admin.site.register(Post, PostAdmin)
